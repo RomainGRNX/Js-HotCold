@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>Js-HotCold</title>
+  </head>
+  <body>
+    <div id="content">
+      <table id="tableau"></table>
+      <div id="contener">
+        <h1 id="title">Hot Cold Game</h1>
+        <div id="frame">
+          <div id="game">
+            <p id="how_to_play">Vous devez trouver le nombre mystère...<br/>
+            Tapez simplement un nombre dans le champ ci-dessous.<br/>
+            Dans la fenêtre de droite vous seront données des indications<br/>
+            qui vous permettrons de trouver le nombre mystère.<br/>
+            Mais attention: Vous n'aurez que 10 essais en tout et pour tout!</p>
+            <div id="inputs">
+              <input type="text" name="tested_number" id="tested_number">
+              <input type="button" value="Tester le numéro" id="test_button">
+            </div>
+          </div>
+          <textarea name="indications" id="indications"></textarea>
+        </div>
+        <p id="tested"></p>
+      </div>
+      <div id="victory_msg">C'est gagné MOTHER FUCKER!!! (n for retry)</div>
+    </div>
+    <script type="text/javascript" src="script/script.js"></script>
+  </body>
+</html>
